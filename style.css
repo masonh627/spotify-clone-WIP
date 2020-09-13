@@ -1,0 +1,98 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+body{
+   background: black;
+}
+.sidebar {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    background: #000000;
+}
+.sidebar i{
+    color: #bdc3c7;
+    position: inherit;
+    padding:5px;
+}
+.sidebar i:hover{
+    color:white;
+    transition: 0.25s;
+}
+.sidebarbuttons button{
+    transform: translate(5%,100%);
+    color: #95a5a6;
+    background: none;
+    border: none;
+    outline:none;
+}
+.sidebarbuttons button:focus{
+    color: white;
+}
+.sidebarbuttons button:hover{
+    color: white;
+    transition: 0.25s;
+}
+.yourlibrary{
+    transform: translate(5%,50%);
+    font-size: auto;
+    transition: 0.25s;
+}
+.yourlibrary h9{
+    font-size: 14px;
+    color: gray;
+    text-transform: uppercase;
+}
+.yourlibrary button{
+    color: #95a5a6;
+    background: none;
+    border: none;
+    outline: none;
+}
+.yourlibrary button:hover{
+    color: white;
+    cursor: pointer;
+    transition: 0.25s;
+}
+.yourlibrary button:focus{
+    color: white;
+}
+.playlist{
+    transform: translate(5%,350%);
+    font-size: auto;
+    transition: 0.25s;
+}
+.playlist h9{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: gray;
+}
+.mainbody {
+    position: absolute;
+    width: 290%;
+    height: 100%;
+    padding: 1px;
+    margin: 0;
+    top: 0%;
+    left: 100%;
+    background: linear-gradient(#222222, #111111 10%);
+}
+.mainbody button{
+    outline: none;
+    background: none;
+    border: none;
+    color: gray;
+    padding: 5px;
+}
+.mainbody button:hover{
+    color: white;
+    transition: 0.25s;
+}
+.mainbody i{
+    color:gray;
+}
+.mainbody input[id="searchbar"]{
+    transform: translate(15%,5%);
+    border-radius: 50px;
+    outline: none;
+}
